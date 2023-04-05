@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Climate+Crisis&family=Open+Sans:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Anton', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul li{
+    list-style: none;
+}
+
+.header{
+    background-image:url('../img/header-bg.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 100vh;
+}
+.container{
+    width: 1170px;
+    margin: 57px auto;
+}
+
+.navbar{
+    padding-top: 57px;
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+}
+.navs{
+    display: flex;
+}
+.phone-number{
+    margin-left: auto;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+}
+.navbar img{
+margin-right: 30px;
+}
+.navs  li{
+    margin-left: 40px;
+}
+.navs  li a{
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.content{
+    text-transform: uppercase;
+    margin-top: 216px;
+    padding-bottom: 105px;
+
+}
+.text1{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.text2{
+    font-size: 100px;
+    margin-bottom: 19px;
+}
+.btnBOOK{
+    border: 1px solid #fff;
+    font-size: 17px;
+    padding: 18px 23px;
+}
+.dy-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.about-title{
+    margin-top: 125px;
+    font-size: 50px;
+    margin-bottom: 74px;
+}
+.post-title{
+    font-size: 25px;
+    margin-bottom: 32px;
+}
+
+.post-description{
+    text-align: justify;
+    width: 564px;
+    height: 146px;
+    font-size: 16px;
+}
+.mb-84{
+    margin-bottom: 84px;
+}
+.footer-content{
+    display: flex;
+    margin-top: 114px;
+    margin-bottom: 113px;
+}
+
+.footer-content p{
+    margin-right: 55px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14px;
+}
